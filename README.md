@@ -9,8 +9,8 @@
 7. masukkan/input beberapa data
 
 ### Documentation API
-base url pegawai: http://localhost:8000/api/pegawai
-base url ruangan: http://localhost:8000/api/ruangan
+- base url pegawai: http://localhost:8000/api/pegawai
+- base url ruangan: http://localhost:8000/api/ruangan
 
 Get all data:
 Method Get
