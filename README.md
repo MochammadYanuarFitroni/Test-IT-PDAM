@@ -1,3 +1,41 @@
+# Documentation
+### Menjalankan project
+1. clone project
+2. cp .env.example .env (membuat file env)
+3. composer install
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan serve
+7. masukkan/input beberapa data
+
+### Documentation API
+base url pegawai: http://localhost:8000/api/pegawai
+base url ruangan: http://localhost:8000/api/ruangan
+
+Get all data:
+Method Get
+- base url pegawai
+- base url ruangan
+
+Get spesifik data:
+Method Get
+- http://localhost:8000/api/pegawai/{nip}
+- http://localhost:8000/api/ruangan/{id_ruangan}
+
+Edit spesifik data:
+Method Put/Patch
+- http://localhost:8000/api/pegawai/{nip}
+- http://localhost:8000/api/ruangan/{id_ruangan}
+
+Hapus spesifik data:
+Method Delete
+- http://localhost:8000/api/pegawai/{nip}
+- http://localhost:8000/api/ruangan/{id_ruangan}
+
+
+
+# Laravel Documentation
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
