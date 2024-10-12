@@ -2,11 +2,14 @@
 ### Menjalankan project
 1. clone project
 2. cp .env.example .env (membuat file env)
-3. composer install
-4. php artisan key:generate
-5. php artisan migrate
-6. php artisan serve
-7. masukkan/input beberapa data
+3. buka file .env dan ubah DB_CONNECTION jadi mysql (saya pakai mysql)
+4. lalu hapus comen dari DB_HOST sampai DB_PASSWORD
+5. ubah nama DB_DATABSE jadi test-PDAM
+6. composer install
+7. php artisan key:generate
+8. php artisan migrate
+9. php artisan serve
+10. masukkan/input beberapa data
 
 ### Documentation API
 - base url pegawai: http://localhost:8000/api/pegawai
